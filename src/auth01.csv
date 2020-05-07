@@ -1,0 +1,6 @@
+id,username,start_date,enabled,job_title
+0001,gordon,2016/01/25,true,Manager
+0002,kenk,2016/01/25,true,Manager
+0003,kend,2016/01/25,true,"Senior Associate"
+0004,mike,2017/05/05,true,Manager
+0005,simon,2016/01/25,false,"Senior Manager"

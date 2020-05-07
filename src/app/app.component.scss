@@ -1,0 +1,51 @@
+* {
+    font-family: Lato;
+}
+
+.container_row {
+//    border: 1px solid red;
+    position: relative;
+    height: 640px;
+    width: 100%;
+//    align-items: center;
+//    justify-content: center;
+}
+
+ngx-dropzone,
+.custom-dropzone {
+//    margin: 2px;
+}
+  
+.custom-dropzone {
+    height: 250px;
+    background: #333;
+    color: #fff;
+    border: 5px dashed rgb(235, 79, 79);
+    border-radius: 10px;
+    font-size: 20px;
+}
+  
+#auth-dropzone {
+    position: absolute;
+    background: #dfffdf;
+    border:2px dashed #3f7f3f;
+    width: 40%;
+    height: 40%;
+    margin: 30%;
+    margin-top: 10%;
+//    margin-bottom: 30%;
+    z-index: 2;
+}
+  
+#target-dropzone {
+    position: absolute;
+    background: #dfdfff;
+    border:2px dashed #3f3f7f;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+}
+
+.custom-dropzone.ngx-dz-hovered {
+    border: 5px solid rgb(235, 79, 79);
+}
